@@ -1,6 +1,103 @@
+    /*font-family: 'Playfair Display', serif;
+
+    font-family: 'Lato', sans-serif;*/
+html{
+    @media screen and (min-width: 200px) and (max-width: 2000px)
+        
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 
+
+/*--------------------------- Bloc 1 ---------------------------*/
+
+
+header{
+    width: 100%;
+    background-color: aqua;
+    background: url(images/SUV-1344716.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+    
+img{
+    display: block;
+    align-items: center;
+    
+}
+
+    
+.maintitle{
+    color:white;
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+        
+.newwhite{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+       
+}
 
-    font-family: 'Lato', sans-serif;
+        
 
+
+/*------------------------ Bloc 2 Visionnaire -----------------------*/
+
+#visionnaire{
+    display: flex;
+    
+}
+
+
+#visionnaire img{
+    height: 500px;
+}
+
+/*------------------------- Bloc 3 Technique ------------------------*/
+
+
+#technique{
+    height: 500px;
+    display: flex;
+}
+
+#technique img{
+    height: 500px;
+}
+
+
+
+/*-------------------------- Bloc 4 Emotion ------------------------*/
+
+#emotion{
+    height: 500px;
+    display: flex;
+}
+
+div img{
+    display: block;
+}
+
+div{
+    
+}
+
+
+/*------------------------- Bloc 5 footer ------------------------*/
+
+#footer{
+    display: flex;
+    
+}
