@@ -1,9 +1,10 @@
     /*font-family: 'Playfair Display', serif;
 
     font-family: 'Lato', sans-serif;*/
+
+
 html{
-    @media screen and (min-width: 200px) and (max-width: 2000px)
-        
+    width: 100%;
 }
 
 body{
@@ -19,30 +20,31 @@ body{
 
 header{
     width: 100%;
-    background-color: aqua;
-    background: url(images/SUV-1344716.jpg);
-    background-repeat: no-repeat;
     margin: 0;
-    padding: 0;
-    
-
-    
+    padding: 0;  
 }
-    
+  
+
 img{
     display: block;
-    align-items: center;
     
 }
 
-    
+
+.suv{
+    width: 100%;
+}    
+
+
 .maintitle{
     color:white;
     font-family: 'Playfair Display', serif;
-    font-weight: bold;
+    font-weight:bold;
     font-size: 40px;
+    font-stretch: ;
 }
-        
+
+
 .newwhite{
     color:white;
     font-family: 'Playfair Display', serif;
@@ -57,47 +59,78 @@ img{
 
 #visionnaire{
     display: flex;
+    width: 100%;
     
 }
 
 
+article{
+    width: 50%;
+}
+
+
 #visionnaire img{
-    height: 500px;
+    width: 50%;
 }
 
 /*------------------------- Bloc 3 Technique ------------------------*/
 
 
 #technique{
-    height: 500px;
+    width: 100%;
     display: flex;
 }
 
+
 #technique img{
-    height: 500px;
+    width: 50%;
 }
 
+
+#technique article{
+    width: 50%;
+}
 
 
 /*-------------------------- Bloc 4 Emotion ------------------------*/
 
 #emotion{
-    height: 500px;
+    width: 100%;
     display: flex;
 }
+
+
+#emotion article{
+    width: 50%;
+}
+
 
 div img{
     display: block;
 }
 
+
 div{
-    
+    width: 25%;
 }
 
 
-/*------------------------- Bloc 5 footer ------------------------*/
+/*------------------------- Bloc 5 Formulaire ------------------------*/
 
-#footer{
+
+
+#formulaire img{
+    width: 100%;
+}
+
+
+
+
+/*------------------------- Bloc 6 footer ------------------------*/
+
+footer{
     display: flex;
-    
+    width: 100%;
+    background-color: black;
 }
+
