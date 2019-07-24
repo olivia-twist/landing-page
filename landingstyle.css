@@ -1,12 +1,140 @@
-
-
     /*font-family: 'Playfair Display', serif;
 
     font-family: 'Lato', sans-serif;*/
 
+
+
+html{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*--------------------------- Bloc 1 ---------------------------*/
+
+
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    display: block;
+
+}
+
+
+.suv{
+    width: 100%;
+}
+
+
+.maintitle{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-weight:bold;
+    font-size: 40px;
+    font-stretch: ;
+}
+
+
+.newwhite{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+
+}
+
+
+
+
+/*------------------------ Bloc 2 Visionnaire -----------------------*/
+
+#visionnaire{
+    display: flex;
+    width: 100%;
+
+}
+
+
+article{
+    width: 50%;
+}
+
+
+#visionnaire img{
+    width: 50%;
+}
+
+/*------------------------- Bloc 3 Technique ------------------------*/
+
+
+#technique{
+    width: 100%;
+    display: flex;
+}
+
+
+#technique img{
+    width: 50%;
+}
+
+
+#technique article{
+    width: 50%;
+}
+
+
+/*-------------------------- Bloc 4 Emotion ------------------------*/
+
+#emotion{
+    width: 100%;
+    display: flex;
+}
+
+
+#emotion article{
+    width: 50%;
+}
+
+
+div img{
+    display: block;
+}
+
+
+div{
+    width: 25%;
+}
+
+
+/*------------------------- Bloc 5 Formulaire ------------------------*/
+
+
+
+#formulaire img{
+    width: 100%;
+}
+
+
+
+
+/*------------------------- Bloc 6 footer ------------------------*/
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
 .techline{
   border-bottom: 2px solid black;
-}
-body{
-
 }
