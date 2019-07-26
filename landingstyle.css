@@ -9,6 +9,7 @@ html{
 }
 
 body{
+    position: relative;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -42,7 +43,7 @@ img{
     font-family: 'Playfair Display', serif;
     font-weight:bold;
     font-size: 40px;
-    font-stretch: ;
+    font-stretch:;
 }
 
 
@@ -111,30 +112,96 @@ div img{
 }
 
 
-div{
+.carre{
     width: 25%;
 }
 
 
-/*------------------------- Bloc 5 Formulaire ------------------------*/
+/*------------------------- Bloc 5 Formulaire -----------------------*/
 
 
 
-#formulaire img{
+#formulaire{
+    position: static;
     width: 100%;
+    float: left;
+}
+
+.imgfond{
+    width: 100%;
+}
+
+.suvfond{
+    width: 100%;
+}
+.text{
+     position: ;
 }
 
 
 
+.form{
+   position: ; 
+}
+
+
+div.mc-field-group input{
+    border: 1px solid white;
+    border-radius: 0px;
+    box-shadow: 0;
+    
+}
+
+input.button{
+    border: 1px solid black;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
 
 /*------------------------- Bloc 6 footer ------------------------*/
+#footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
 
-footer{
-    display: flex;
+
+.footer{
     width: 100%;
     background-color: black;
 }
 
-.techline{
-  border-bottom: 2px solid black;
+
+ul{
+    list-style: none;
 }
+
+
+.titlewhite{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.latowhite{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.social{
+    display: flex;
+}
+
+
+
+img.social{
+    display: block;
+    flex-direction: row;
+}
+
