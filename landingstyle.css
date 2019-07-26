@@ -15,6 +15,11 @@ body{
     padding: 0;
 }
 
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+}
+
 
 
 /*--------------------------- Bloc 1 ---------------------------*/
@@ -24,6 +29,7 @@ header{
     width: 100%;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 
@@ -35,29 +41,63 @@ img{
 
 .suv{
     width: 100%;
+
 }
+
+  #logo{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+
+
+  }
 
 
 .maintitle{
     color:white;
     font-family: 'Playfair Display', serif;
-    font-weight:bold;
-    font-size: 40px;
     font-stretch:;
+    font-weight: bold;
+    font-size: 112px;
+    position: absolute;
+    top: 22%;
+    margin-left: 3%;
+    margin-right: 20%;
+    line-height: 100%;
+
 }
 
 
 .newwhite{
     color:white;
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 85px;
+    position: absolute;
+    top: 45%;
+    margin-left: 3%;
+    font-weight: lighter;
+}
 
+#demander{
+  position: absolute;
+  top: 95%;
+  left: 80%;
 }
 
 
 
 
 /*------------------------ Bloc 2 Visionnaire -----------------------*/
+
+.titlemaj{
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+}
+
+.smalltitle{
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+}
 
 #visionnaire{
     display: flex;
@@ -84,15 +124,15 @@ article{
 }
 
 
-#technique img{
+#four{
     width: 50%;
 }
 
-
-#technique article{
-    width: 50%;
+.techline{
+  border-bottom: 2px solid black;
+  margin-right: 10%;
+  margin-left: 10%;
 }
-
 
 /*-------------------------- Bloc 4 Emotion ------------------------*/
 
@@ -117,9 +157,21 @@ div img{
 }
 
 
+
 /*------------------------- Bloc 5 Formulaire -----------------------*/
 
 
+.reserver{
+  font-family: 'Playfair Display', serif;
+  font-size: 95px;
+  font-weight: bold;
+}
+
+
+.newblack{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
 
 #formulaire{
     position: static;
@@ -138,6 +190,11 @@ div img{
      position: ;
 }
 
+#form{
+  position: absolute;
+  z-index: 1;
+
+}
 
 
 .form{
@@ -163,6 +220,7 @@ input.button{
 
 
 /*------------------------- Bloc 6 footer ------------------------*/
+
 #footer{
     position: relative;
     bottom: 0;
@@ -185,12 +243,15 @@ ul{
 .titlewhite{
     color: white;
     font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 
 .latowhite{
     color: white;
     font-family: 'Lato', sans-serif;
+    font-size: 26px;
 }
 
 
