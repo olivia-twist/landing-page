@@ -152,10 +152,21 @@ span{
     display: flex;
 }
 
+#carre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
 
-.carre{
-    width: 25%;
-    display: block;
+.imghover:hover{
+    opacity: 1;
+}
+
+.imghover{
+    width: 100%;
+    opacity: 0.5 ;
 }
 
 
@@ -163,7 +174,7 @@ span{
 /*-------------------- Bloc 5 Formulaire -------------------*/
 
 #formulaire{
-    position: ;
+    position: relative;
     width: 100%;
     float: left;
 }
@@ -277,10 +288,10 @@ img.social{
 @media screen (min-width: 1388px) {
 
    .maintitle{
-  font-size: 10vw;
+  font-size: 10vh;
     }
     .playwhite{
-        font-size: 10vw;
+        font-size: 10vh;
     }
 }
 
@@ -289,21 +300,21 @@ img.social{
 @media screen (min-width: 768px) and (max-width: 1388px) {
 
    .maintitle{
-  font-size: 10vw;
+  font-size: 10vh;
     }
     .playwhite{
-        font-size: 10vw;
+        font-size: 10vh;
     }
 }
 
 @media screen (max-width: 426px) and (max-width: 768px) {
 
     .maintitle{
-        font-size: 10vw;
+        font-size: 10vh;
         top: 36%;
     }
     .playwhite{
-        font-size: 10vw;
+        font-size: 10vh;
         top: 57%;
     }
 }
@@ -312,12 +323,13 @@ img.social{
 @media screen (max-width: 425px) {
 
     .maintitle{
-        font-size: 10vw;
+        font-size: 10vh;
         top: 36%;
     }
     .playwhite{
-        font-size: 10vw;
+        font-size: 10vh;
         top: 57%;
     }
 }
+
 */
