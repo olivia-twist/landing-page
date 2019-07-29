@@ -31,13 +31,6 @@ header{
     position: relative;
 }
 
-
-img{
-    display: block;
-
-}
-
-
 .suv{
     width: 100%;
 
@@ -45,8 +38,7 @@ img{
 
   #logo{
     position: absolute;
-    z-index: 1;
-    left: 50%;
+    left: 40%;
 
 
   }
@@ -119,7 +111,10 @@ article{
 #technique{
     width: 100%;
     display: flex;
-}
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+
+  }
 
 
 #four{
@@ -128,8 +123,17 @@ article{
 
 .techline{
   border-bottom: 2px solid black;
-  margin-right: 10%;
   margin-left: 10%;
+  width: 80%;
+
+}
+
+.data{
+
+  text-align: right;
+   width: 80%;
+
+
 }
 
 /*-------------------------- Bloc 4 Emotion ------------------------*/
@@ -137,21 +141,39 @@ article{
 #emotion{
     width: 100%;
     display: flex;
+
 }
 
 
 #emotion article{
     width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
-div img{
+img{
     display: block;
 }
+.emo{
+  width: 100%;
+ display: flex;
 
+}
+.txtEmo{
 
-div{
-    width: 25%;
+  width: 50%;
+  background-color: green;
+}
+.blocImg{
+
+  height: auto;
+  width: 50%;
+  background-color: red;
+  opacity: 0.5;
+}
+.blocImg:hover{
+  opacity: 1;
 }
 
 
@@ -160,11 +182,15 @@ div{
   font-family: 'Playfair Display', serif;
   font-size: 95px;
   font-weight: bold;
+  position: absolute;
+  margin-top: 4%;
 }
 
 .newblack{
   font-family: 'Playfair Display', serif;
   font-size: 48px;
+  position: absolute;
+  margin-top: 8%;
 }
 
 #formulaire img{
