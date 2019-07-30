@@ -91,7 +91,7 @@ header{
 article{
     width: 40%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%; 
 
 }
 
@@ -110,8 +110,8 @@ article{
 
 
 .smalltitle{
-  font-family: 'Playfair Display', serif;
-  font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
 }
 
 .lato{
@@ -134,15 +134,21 @@ article{
     width: 50%;
 }
 
+
+.articletech{
+    margin-top: 5%;
+}
+
+
 span{
     float: right;
 }
 
-.techline {
+.techline{
     font-family: 'lato', sans-serif;
     font-size: 30px;
     /*border-bottom: 2px solid black;*/
-    line-height: 80px;
+    line-height: 35px;
 }
 
 /*---------------------- Bloc 4 Emotion --------------------*/
@@ -160,13 +166,14 @@ span{
     margin: 0;
 }
 
+/*--effet hover sur les 4 images en carré--*/
 .imghover:hover{
     opacity: 1;
 }
 
 .imghover{
     width: 100%;
-    opacity: 0.5 ;
+    opacity: 0.5;
 }
 
 
@@ -179,15 +186,11 @@ span{
     float: left;
 }
 
-.text{
-     position:;
-}
-
 
 .reserver{
-  font-family: 'Playfair Display', serif;
-  font-size: 95px;
-  font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size: 95px;
+    font-weight: bold;
 }
 
 
@@ -201,16 +204,6 @@ span{
     width: 100%;
 }
 
-
-#form{
-  position: absolute;
-  z-index: 1;
-}
-
-
-.form{
-   position: ; 
-}
 
 
 div.mc-field-group input{
@@ -311,11 +304,11 @@ img.social{
 
     .maintitle{
         font-size: 10vh;
-        top: 36%;
+       
     }
+    
     .playwhite{
         font-size: 10vh;
-        top: 57%;
     }
 }
 
@@ -324,11 +317,11 @@ img.social{
 
     .maintitle{
         font-size: 10vh;
-        top: 36%;
+        
     }
     .playwhite{
         font-size: 10vh;
-        top: 57%;
+       
     }
 }
 
