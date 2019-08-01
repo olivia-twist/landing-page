@@ -24,9 +24,7 @@ header{
     margin-bottom: -4px;
 }
 
-.suv{
-    width: 100%;
-}
+.suv{width: 100%;}
 
   #logo{
     position: absolute;    height: 15%;
@@ -61,16 +59,32 @@ header{
   left: 80%;
 }
 
-/*-------------------- Bloc 2 Visionnaire ------------------*/
+/*------------------- Bloc 2 Visionnaire -----------------*/
+
 #visionnaire{
     display:flex;
     width: 100%;
+    margin-bottom: -4px;
 }
 
 #visionnaire article{
     width: 50%;
-    padding: 40px;
+    margin: 0;
 }
+
+#visionnaire h2{
+    margin: 55px 95px 0px 95px;
+}
+
+#visionnaire h3{
+    margin: 10px 95px 0px 95px;
+}
+
+
+#visionnaire p{
+    margin: 20px 95px 0px 95px;
+}
+    
 
 .first-row-img{
     width: 50%;
@@ -78,7 +92,6 @@ header{
 
 .imgvisio{
     width: 100%;
-    height: auto;
 }
 
 
@@ -94,7 +107,8 @@ header{
 
 .lato{
     font-family: 'lato', sans-serif;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
+    line-height: 40px;
 }
 
 
@@ -103,6 +117,7 @@ header{
 #technique{
     width: 100%;
     display: flex;
+    margin-bottom: -4px;
 }
 
 .imgtech{
@@ -114,19 +129,24 @@ header{
 }
 
 
-.articletech{
+#technique article{
     width: 50%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-
-span{
-    float: right;
+#technique p, hr{
+    margin-left: 95px;
+    margin-right: 95px;
 }
+
+span{float: right;}
 
 
 .articletech p, span{
     padding-left: 30px;
-    font-size: 1.5vw;
     line-height: 80px;
 }
 
@@ -139,23 +159,35 @@ span{
     margin-bottom: -4px;
 }
 
+#emotion article{
+    width: 50%;
+    margin: 0;
+}
+
+#emotion h2{
+    margin: 90px 95px 0px 95px;
+}
+
+#emotion h3{
+    margin: 10px 95px 0px 95px;
+}
+
+#emotion article p{
+    padding: 80px 95px 40px 95px;
+}
+
 #carre{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    height: 50%;
     padding: 0;
     margin: 0;
-}
-#emotion article{
-    width: 50%;
-}
-
-#emotion article p{
-    padding: 80px 80px 40px 80px;
 }
 
 #carre div{
     width: 50%;
+    margin-bottom: -4px;
 }
 #carre img{
     width: 100%;
@@ -177,49 +209,51 @@ span{
     width: 100%;
 }
 
-.reserver{
+#formulaire h2,h3{
     position: absolute;
+    margin-left: 100px;
+}
+
+.reserver{
     font-family: 'Playfair Display', serif;
-    font-size: 6vw;
-    top: 3%;
-    margin-left: 5%;
+    font-size: 4.8vw;
 }
 
 .playfairblack{
-    position: absolute;
     font-family: 'Playfair Display', serif;
-    font-size: 4vw;
-    top: 14%;
-    margin-left: 5%;
+    font-size: 2.4vw;
+    margin-top: 180px;
     font-weight: lighter;
 }
 
-.suvfond{
-    width: 100%;
-}
+.suvfond{width: 100%;}
 
 
 .mc_embed_signup{
     position: absolute;
-    bottom: 10%;
-    right: 25%;
+    bottom: 15%;
+    right: 10%;
 }
 
 div.mc-field-group input{
     border: 1px solid white;
-    padding: 2%;
     font-size: 20px;
-    height: 60px;
-    width: 40%;
+    height: 80px;
+    color: black;
+    width: 600px;
 }
 
 
 .mc-field-group{
-    padding: 10px;
-    margin: 2%;
+    margin: 20px;
+}
+
+.clear{
+    text-align: center;
 }
 
 input.button{
+    padding: 10px;
     border: 1px solid black;
     color: white;
     background-color: black;
