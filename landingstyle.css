@@ -1,7 +1,7 @@
     /*font-family: 'Playfair Display', serif;
     font-family: 'Lato', sans-serif;*/
 
-html{width: 100%;}
+html
 
 body{
     position: relative;
@@ -27,47 +27,30 @@ header{
     position: relative;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> refs/remotes/origin/master
 .suv{
     width: 100%;
-
 }
 
   #logo{
-    position: absolute;
-<<<<<<< HEAD
-    left: 40%;
-
-
-=======
-    height: 150px;
+    position: absolute;    height: 15%;
     left: 50%;
     transform: translate(-50%); /* décalage de 50% de sa propre taille */
->>>>>>> refs/remotes/origin/master
   }
-
-.titre{float: left;}
-
 
 .maintitle{
     color:white;
     font-family: 'Playfair Display', serif;
-    font-stretch:;
-    font-size: 120px;
+    font-size: 5.6vw;
     position: absolute;
     top: 36%;
     margin-left: 5%;
     line-height: 95%;
 }
 
-
 .playwhite{
     color:white;
     font-family: 'Playfair Display', serif;
-    font-size: 91px;
+    font-size: 4.2vw;
     position: absolute;
     top: 57%;
     margin-left: 5%;
@@ -77,11 +60,8 @@ header{
 #demander{
   position: absolute;
   bottom: 0%;
-  left: 80%;
+  left: 82%;
 }
-
-
-
 
 /*-------------------- Bloc 2 Visionnaire ------------------*/
 
@@ -91,54 +71,44 @@ header{
     height: auto;
 }
 
-
 #visionnaire img{
     width: 50%;
 }
-
 
 article{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-
 }
-
 
 .imgvisio{
     display: block;
     height: 100%;
     width: 50%;
-}
 
+}
 
 .playfairtitle{
   font-family: 'Playfair Display', serif;
-  font-size: 61px;
+  font-size: 3vw;
 }
-
 
 .smalltitle{
   font-family: 'Playfair Display', serif;
-  font-size: 30px;
+  font-size: 1,5vw;
 }
 
 .lato{
     font-family: 'lato', sans-serif;
-    font-size: 32px;
+    font-size: 2vw;
 }
 
-
 /*-------------------- Bloc 3 Technique --------------------*/
-
 
 #technique{
     width: 100%;
     display: flex;
-    font-family: 'Lato', sans-serif;
-    font-size: 32px;
-
-  }
+}
 
 .imgtech{
     display: block;
@@ -146,32 +116,17 @@ article{
     width: 50%;
 }
 
-<<<<<<< HEAD
-.techline{
-  border-bottom: 2px solid black;
-  margin-left: 10%;
-  width: 80%;
-
-}
-
-.data{
-
-  text-align: right;
-   width: 80%;
-
-
-=======
 span{
     float: right;
->>>>>>> refs/remotes/origin/master
 }
 
 .techline {
     font-family: 'lato', sans-serif;
-    font-size: 30px;
+    font-size: 2vw;
     /*border-bottom: 2px solid black;*/
     line-height: 80px;
 }
+
 
 /*---------------------- Bloc 4 Emotion --------------------*/
 
@@ -181,97 +136,58 @@ span{
 
 }
 
-
-<<<<<<< HEAD
-#emotion article{
+#carre{
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 0;
+    margin: 0;
 }
 
-
-img{
-    display: block;
-}
-.emo{
-  width: 100%;
- display: flex;
-
-}
-.txtEmo{
-
-  width: 50%;
-  background-color: green;
-}
-.blocImg{
-
-  height: auto;
-  width: 50%;
-  background-color: red;
-  opacity: 0.5;
-}
-.blocImg:hover{
-  opacity: 1;
-=======
-.carre{
-    width: 25%;
-    display: block;
+.imghover:hover{
+    opacity: 1;
 }
 
-
+.imghover{
+    width: 100%;
+    opacity: 0.5;
+}
 
 /*-------------------- Bloc 5 Formulaire -------------------*/
 
 #formulaire{
-    position: ;
+
     width: 100%;
-    float: left;
-}
+    background-image: url(images/bmw-formulaire.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
-.text{
-     position:;
->>>>>>> refs/remotes/origin/master
 }
-
 
 .reserver{
   font-family: 'Playfair Display', serif;
-  font-size: 95px;
+  font-size: 6vw;
   font-weight: bold;
-  position: absolute;
-  margin-top: 4%;
 }
-
 
 .playfairblack{
   font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  position: absolute;
-  margin-top: 8%;
+  font-size: 4vw;
+  font-weight: lighter;
 }
-
 
 .suvfond{
     width: 100%;
 }
 
-
-#form{
-  position: absolute;
+.form{
   z-index: 1;
 }
 
-
-.form{
-   position: ; 
-}
-
-
 div.mc-field-group input{
-    border: 1px solid white;
+    border: 35px solid white;
     border-radius: 0px;
     box-shadow: 0;
-    
 }
 
 input.button{
@@ -280,9 +196,8 @@ input.button{
     color: white;
     background-color: black;
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
+    font-size: 2vw;
 }
-
 
 /*-------------------- Bloc 6 footer ---------------------*/
 
@@ -294,58 +209,48 @@ input.button{
     display: flex;
 }
 
-
 .footer{
     width: 100%;
     background-color: black;
-}
+    display: flex;
+    flex: row;
 
+}
 
 ul{
     list-style: none;
 }
 
-
 .titlewhite{
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight: bold;
 }
-
 
 .latowhite{
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 26px;
-}
-
-
-.social{
+    font-size: 1vw;
     
+
 }
-
-
 
 img.social{
     display: block;
     flex-direction: row;
+
 }
-
-
-
-
-
 
 /*------ Responsive -------
 
 @media screen (min-width: 1388px) {
 
    .maintitle{
-  font-size: 10vw;
+  font-size: 10vh;
     }
     .playwhite{
-        font-size: 10vw;
+        font-size: 10vh;
     }
 }
 
@@ -354,21 +259,21 @@ img.social{
 @media screen (min-width: 768px) and (max-width: 1388px) {
 
    .maintitle{
-  font-size: 10vw;
+  font-size: 10vh;
     }
     .playwhite{
-        font-size: 10vw;
+        font-size: 10vh;
     }
 }
 
 @media screen (max-width: 426px) and (max-width: 768px) {
 
     .maintitle{
-        font-size: 10vw;
+        font-size: 10vh;
         top: 36%;
     }
     .playwhite{
-        font-size: 10vw;
+        font-size: 10vh;
         top: 57%;
     }
 }
@@ -377,12 +282,13 @@ img.social{
 @media screen (max-width: 425px) {
 
     .maintitle{
-        font-size: 10vw;
+        font-size: 10vh;
         top: 36%;
     }
     .playwhite{
-        font-size: 10vw;
+        font-size: 10vh;
         top: 57%;
     }
 }
+
 */
