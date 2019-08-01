@@ -24,18 +24,15 @@ header{
     margin-bottom: -4px;
 }
 
-
 .suv{
     width: 100%;
 }
 
   #logo{
-    position: absolute;
-    height: 150px;
+    position: absolute;    height: 15%;
     left: 50%;
     transform: translate(-50%); /* décalage de 50% de sa propre taille */
   }
-
 
 
 .maintitle{
@@ -47,7 +44,6 @@ header{
     margin-left: 5%;
     line-height: 95%;
 }
-
 
 .playwhite{
     color:white;
@@ -61,18 +57,14 @@ header{
 
 #demander{
   position: absolute;
-  bottom: 0%;
+  bottom: 4px;
   left: 80%;
 }
-
-
-
 
 /*-------------------- Bloc 2 Visionnaire ------------------*/
 #visionnaire{
     display:flex;
     width: 100%;
-
 }
 
 #visionnaire article{
@@ -95,7 +87,6 @@ header{
   font-size: 3.2vw;
 }
 
-
 .smalltitle{
     font-family: 'Playfair Display', serif;
     font-size: 1.5vw;
@@ -109,16 +100,17 @@ header{
 
 /*-------------------- Bloc 3 Technique --------------------*/
 
-
 #technique{
     width: 100%;
     display: flex;
 }
 
 .imgtech{
-    display: block;
-    height: 100%;
     width: 50%;
+}
+
+.imgtech img{
+    width: 100%;
 }
 
 
@@ -131,15 +123,13 @@ span{
     float: right;
 }
 
- /*.techline{
-    font-family: 'lato', sans-serif;
-    font-size: 30px;
-   border-bottom: 2px solid black;
-    line-height: 35px;*/
-}
+
 .articletech p, span{
     padding-left: 30px;
+    font-size: 1.5vw;
+    line-height: 80px;
 }
+
 
 /*---------------------- Bloc 4 Emotion --------------------*/
 
@@ -177,11 +167,8 @@ span{
 }
 
 .imghover{
-
     opacity: 0.5;
 }
-
-
 
 /*-------------------- Bloc 5 Formulaire -------------------*/
 
@@ -190,27 +177,22 @@ span{
     width: 100%;
 }
 
-
 .reserver{
     position: absolute;
     font-family: 'Playfair Display', serif;
-    font-size: 100px;
-    font-weight: bold;
+    font-size: 6vw;
     top: 3%;
     margin-left: 5%;
-    line-height: 95%;
 }
-
 
 .playfairblack{
     position: absolute;
     font-family: 'Playfair Display', serif;
-    font-size: 50px;
+    font-size: 4vw;
     top: 14%;
     margin-left: 5%;
     font-weight: lighter;
 }
-
 
 .suvfond{
     width: 100%;
@@ -245,7 +227,6 @@ input.button{
     font-size: 40px
 }
 
-
 /*-------------------- Bloc 6 footer ---------------------*/
 
 #footer{
@@ -257,48 +238,38 @@ input.button{
     margin-top: -4px;
 }
 
-
 .footer{
     width: 100%;
     background-color: black;
-}
+    display: flex;
+    flex: row;
 
+}
 
 ul{
     list-style: none;
 }
 
-
 .titlewhite{
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight: bold;
 }
-
 
 .latowhite{
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 26px;
-}
-
-
-.social{
+    font-size: 1vw;
     
+
 }
-
-
 
 img.social{
     display: block;
     flex-direction: row;
+
 }
-
-
-
-
-
 
 /*------ Responsive -------
 
