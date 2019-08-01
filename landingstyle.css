@@ -4,16 +4,12 @@
 html{width: 100%;}
 
 body{
-    position: relative;
     width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
-
-/*--p{
-  font-family: 'Lato', sans-serif;
-  font-size: 32px;
-}--*/
 
 
 
@@ -25,12 +21,12 @@ header{
     margin: 0;
     padding: 0;
     position: relative;
+    margin-bottom: -4px;
 }
 
 
 .suv{
     width: 100%;
-
 }
 
   #logo{
@@ -40,14 +36,12 @@ header{
     transform: translate(-50%); /* décalage de 50% de sa propre taille */
   }
 
-.titre{float: left;}
 
 
 .maintitle{
     color:white;
     font-family: 'Playfair Display', serif;
-    font-stretch:;
-    font-size: 120px;
+    font-size: 5.6vw;
     position: absolute;
     top: 36%;
     margin-left: 5%;
@@ -58,7 +52,7 @@ header{
 .playwhite{
     color:white;
     font-family: 'Playfair Display', serif;
-    font-size: 91px;
+    font-size: 4.2vw;
     position: absolute;
     top: 57%;
     margin-left: 5%;
@@ -75,48 +69,41 @@ header{
 
 
 /*-------------------- Bloc 2 Visionnaire ------------------*/
-
 #visionnaire{
-    display: flex;
+    display:flex;
+    width: 100%;
+
+}
+
+#visionnaire article{
+    width: 50%;
+    padding: 40px;
+}
+
+.first-row-img{
+    width: 50%;
+}
+
+.imgvisio{
     width: 100%;
     height: auto;
 }
 
 
-#visionnaire img{
-    width: 50%;
-}
-
-
-article{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%; 
-
-}
-
-
-.imgvisio{
-    display: block;
-    height: 100%;
-    width: 50%;
-}
-
-
 .playfairtitle{
   font-family: 'Playfair Display', serif;
-  font-size: 61px;
+  font-size: 3.2vw;
 }
 
 
 .smalltitle{
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 1.5vw;
 }
 
 .lato{
     font-family: 'lato', sans-serif;
-    font-size: 32px;
+    font-size: 1.7vw;
 }
 
 
@@ -136,7 +123,7 @@ article{
 
 
 .articletech{
-    margin-top: 5%;
+    width: 50%;
 }
 
 
@@ -144,11 +131,14 @@ span{
     float: right;
 }
 
-.techline{
+ /*.techline{
     font-family: 'lato', sans-serif;
     font-size: 30px;
-    /*border-bottom: 2px solid black;*/
-    line-height: 35px;
+   border-bottom: 2px solid black;
+    line-height: 35px;*/
+}
+.articletech p, span{
+    padding-left: 30px;
 }
 
 /*---------------------- Bloc 4 Emotion --------------------*/
@@ -156,6 +146,7 @@ span{
 #emotion{
     width: 100%;
     display: flex;
+    margin-bottom: -4px;
 }
 
 #carre{
@@ -165,6 +156,20 @@ span{
     padding: 0;
     margin: 0;
 }
+#emotion article{
+    width: 50%;
+}
+
+#emotion article p{
+    padding: 80px 80px 40px 80px;
+}
+
+#carre div{
+    width: 50%;
+}
+#carre img{
+    width: 100%;
+}
 
 /*--effet hover sur les 4 images en carré--*/
 .imghover:hover{
@@ -172,7 +177,7 @@ span{
 }
 
 .imghover{
-    width: 100%;
+
     opacity: 0.5;
 }
 
@@ -183,20 +188,27 @@ span{
 #formulaire{
     position: relative;
     width: 100%;
-    float: left;
 }
 
 
 .reserver{
+    position: absolute;
     font-family: 'Playfair Display', serif;
-    font-size: 95px;
+    font-size: 100px;
     font-weight: bold;
+    top: 3%;
+    margin-left: 5%;
+    line-height: 95%;
 }
 
 
 .playfairblack{
-  font-family: 'Playfair Display', serif;
-  font-size: 48px;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    top: 14%;
+    margin-left: 5%;
+    font-weight: lighter;
 }
 
 
@@ -205,21 +217,32 @@ span{
 }
 
 
+.mc_embed_signup{
+    position: absolute;
+    bottom: 10%;
+    right: 25%;
+}
 
 div.mc-field-group input{
     border: 1px solid white;
-    border-radius: 0px;
-    box-shadow: 0;
-    
+    padding: 2%;
+    font-size: 20px;
+    height: 60px;
+    width: 40%;
+}
+
+
+.mc-field-group{
+    padding: 10px;
+    margin: 2%;
 }
 
 input.button{
     border: 1px solid black;
-    border-radius: 0px;
     color: white;
     background-color: black;
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
+    font-size: 40px
 }
 
 
@@ -231,6 +254,7 @@ input.button{
     width: 100%;
     clear: both;
     display: flex;
+    margin-top: -4px;
 }
 
 
