@@ -83,10 +83,17 @@ header{
     margin: 10px 95px 0px 95px;
 }
 
-#visionnaire p{
-    margin: 20px 95px 0px 95px;
+#visionnaire article p{
+    margin: 80px 95px 0px 95px;
 }
     
+#visionnaire article p.lato2{
+    margin: 20px 95px 20px 95px;
+    font-family: 'lato', sans-serif;
+    font-size: 1.5vw;
+    line-height: 40px;
+}
+
 
 .first-row-img{
     width: 50%;
