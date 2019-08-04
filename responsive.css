@@ -1,37 +1,209 @@
 
-@media screen and (max-width: 625px)
-{
-/* propriétés pour mobile */
+                   /*------ Responsive -------*/
 
 
-#demander{
-  width: 100%;
-  height: 20%;
-  left: 0;
+@media screen and (max-width: 1200px) {
+
+    #demander{
+        left: 50%;
+        transform: translate(-50%);
+        width: 30%;
 }
 
-.first-row-img{
-  display: flex;
-  flex-wrap: wrap;
 
-}
-.footer{
-  display: block;
-}
+    
+@media screen and (max-width: 640px) {
 
-#visionnaire{
-  display: block;
+    
+/* Header */
+    
+    .maintitle{
+        font-size: 6.6vw;
 }
 
-#technique{
-  display: block;
+
+    .playwhite{
+        font-size: 5.2vw;
 }
 
-#emotion{
-  display: block;
+    
+    
+    
+    
+    
+/* Bloc visionnaire */
+    
+    #visionnaire{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #visionnaire article{
+        width: 100%;
+    }
+ 
+    .first-row-img{
+        width: 100%;
+}
+    
+    
+    #visionnaire h2{
+        margin: 25px 40px 0px 40px;
 }
 
+    #visionnaire h3{
+        margin: 5px 40px 0px 40px;
 }
-@media screen and (max-width: 976px)
-{
-/* propriétés pour tablette */
+
+    #visionnaire article p{
+        margin: 40px;
+}
+    
+    #visionnaire article p.lato2{
+        margin: 20px 40px 20px 40px;
+        font-size: 2.6vw;
+        line-height: 20px;
+}
+    
+    .playfairtitle{
+        font-size: 3.2vw;
+}
+
+    .smalltitle{
+        font-size: 2.2vw;
+}
+
+    .lato{
+        font-size: 2.6vw;
+        line-height: 20px;
+}
+    
+    
+    
+/* Bloc technique */    
+    
+    #technique{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #technique article{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .imgtech{
+        width: 100%;
+}
+    
+    #technique p, hr{
+        margin-left: 40px;
+        margin-right: 40px;
+}
+
+
+    .articletech p, span.donnees{
+        padding-left: 15px;
+}
+    
+    
+/* Bloc emotion */    
+    
+    #emotion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #emotion article{
+        width: 100%;
+    }
+    
+    #emotion h2{
+        margin: 25px 40px 0px 40px;
+}
+
+    #emotion h3{
+        margin: 5px 40px 0px 40px;
+}
+
+    #emotion article p{
+        padding: 20px 40px;
+}
+    
+    #carre{
+        flex-direction: column; 
+}
+
+    #carre div{
+        width: 100%
+    }
+ 
+    
+/* Bloc formulaire */
+    
+    #formulaire{
+        
+    }
+        /*background-image: url(images/respBMW.jpg); }*/
+    
+    .mc_embed_signup{
+        position: absolute;
+       
+        text-align: center;
+}
+    
+    div.mc-field-group input{
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .mc-field-group{
+        margin: 10px;
+    }
+    
+    input.button{
+        font-size: 20px;
+    }
+    
+/* Footer */
+    
+    
+    #footer{
+        display: block;
+        
+    }
+    
+        .blocleft{
+            display: flex;
+            flex-direction: column;
+    }
+
+
+        article.univers,.cgu{
+            margin: 30px;
+    }
+
+
+        div.social{
+            margin: 30px;
+            text-align: center;
+    }
+
+
+        .social img{
+            padding: 0px 3px;
+    }
+
+
+        .titlewhite{
+            font-size: 4vw;
+            padding-bottom: 10px;
+    }
+
+        .latowhite{
+            font-size: 3vw;
+            padding-left: 0px;
+            line-height: 40px;
+    }

@@ -151,11 +151,10 @@ header{
     margin-right: 95px;
 }
 
-span{float: right;}
+#technique span.donnees{float: right;}
 
-.articletech p, span{
+.articletech p, span.donnees{
     padding-left: 30px;
-    line-height: 80px;
 }
 
 
@@ -264,6 +263,22 @@ div.mc-field-group input{
     text-align: center;
 }
 
+.case{
+    display: flex;
+    border-style: none;    
+}
+
+span.cocher{
+    font-size: 0.6vw;
+    margin: 0;
+    padding: 0;    
+}
+
+.clear fieldset label{
+    display: flex;
+    align-items: start;
+}
+
 input.button{
     padding: 10px;
     border: 1px solid black;
@@ -304,6 +319,10 @@ ul{list-style: none;}
     line-height: 35px;
 }
 
+li a{
+    text-decoration: none;
+    color: white;
+}
 
 .blocleft{
     display: flex;
@@ -325,56 +344,3 @@ div.social{
 }
 
 
-
-
-
-/*------ Responsive -------
-
-@media screen (min-width: 1388px) {
-
-   .maintitle{
-  font-size: 10vh;
-    }
-    .playwhite{
-        font-size: 10vh;
-    }
-}
-
-
-
-@media screen (min-width: 768px) and (max-width: 1388px) {
-
-   .maintitle{
-  font-size: 10vh;
-    }
-    .playwhite{
-        font-size: 10vh;
-    }
-}
-
-@media screen (max-width: 426px) and (max-width: 768px) {
-
-    .maintitle{
-        font-size: 10vh;
-       
-    }
-    
-    .playwhite{
-        font-size: 10vh;
-    }
-}
-
-
-@media screen (max-width: 425px) {
-
-    .maintitle{
-        font-size: 10vh;
-        
-    }
-    .playwhite{
-        font-size: 10vh;
-       
-    }
-}
-
-*/
