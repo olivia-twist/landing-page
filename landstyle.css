@@ -1,0 +1,588 @@
+    /*font-family: 'Playfair Display', serif;
+    font-family: 'Lato', sans-serif;*/
+
+html{width: 100%;}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*-------------------- Bloc 1 Header --------------------*/
+
+
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-bottom: -4px;
+}
+
+.suv{width: 100%;}
+
+
+  #logo{
+    position: absolute;    height: 15%;
+    left: 50%;
+    transform: translate(-50%); /* décalage de 50% de sa propre taille */
+  }
+
+
+.maintitle{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 5.6vw;
+    position: absolute;
+    top: 36%;
+    margin-left: 5%;
+    line-height: 95%;
+}
+
+
+.playwhite{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 4.2vw;
+    position: absolute;
+    top: 57%;
+    margin-left: 5%;
+    font-weight: lighter;
+}
+
+
+#demander{
+  position: absolute;
+  bottom: 4px;
+  left: 80%;
+}
+
+/*------------------- Bloc 2 Visionnaire -----------------*/
+
+#visionnaire{
+    display:flex;
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+#visionnaire article{
+    width: 50%;
+    margin: 30px 0 0 0;
+}
+
+#visionnaire h2{
+    margin: 55px 95px 0px 95px;
+}
+
+#visionnaire h3{
+    margin: 10px 95px 0px 95px;
+}
+
+#visionnaire article p{
+    margin: 80px 95px 0px 95px;
+}
+    
+#visionnaire article p.lato2{
+    margin: 20px 95px 20px 95px;
+    font-family: 'lato', sans-serif;
+    font-size: 1.5vw;
+    line-height: 40px;
+}
+
+
+.first-row-img{
+    width: 50%;
+}
+
+.imgvisio{
+    width: 100%;
+}
+
+
+.playfairtitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.9vw;
+    line-height: 3.2vw;
+    font-weight: lighter;
+}
+
+.smalltitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+    font-weight: lighter;
+
+}
+
+.lato{
+    font-family: 'lato', sans-serif;
+    font-size: 1.5vw;
+    line-height: 40px;
+}
+
+
+/*------------------ Bloc 3 Technique -------------------*/
+
+#technique{
+    width: 100%;
+    display: flex;
+    margin-bottom: -4px;
+}
+
+.imgtech{
+    width: 50%;
+}
+
+.imgtech img{
+    width: 100%;
+}
+
+
+#technique article{
+    width: 50%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#technique p, hr{
+    margin-bottom: 10px;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+#technique span.donnees{float: right;}
+
+.articletech p, span.donnees{
+    padding-left: 30px;
+}
+
+
+/*---------------------- Bloc 4 Emotion --------------------*/
+
+#emotion{
+    width: 100%;
+    display: flex;
+    margin-bottom: -4px;
+}
+
+#emotion article{
+    width: 50%;
+    margin: 0;
+}
+
+#emotion h2{
+    margin: 90px 95px 0px 95px;
+}
+
+#emotion h3{
+    margin: 10px 95px 0px 95px;
+}
+
+#emotion article p{
+    padding: 80px 95px 40px 95px;
+}
+
+
+#carre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+#carre div{
+    width: 50%;
+    margin-bottom: -4px;
+}
+
+#carre img{
+    width: 100%;
+}
+
+
+/*--effet hover sur les 4 images en carré--*/
+.imghover:hover{
+    opacity: 1;
+}
+
+.imghover{
+    opacity: 0.5;
+}
+
+/*-------------------- Bloc 5 Formulaire -------------------*/
+
+#formulaire{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-image: url(images/bmw-formulaire.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+#formulaire h2,h3{
+    position: absolute;
+    margin-left: 100px;
+}
+
+
+.reserver{
+    font-family: 'Playfair Display', serif;
+    font-size: 4.8vw;
+}
+
+.playfairblack{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4vw;
+    margin-top: 180px;
+    font-weight: lighter;
+}
+
+
+.formchimp{
+    position: relative;
+    left: 56%;
+    top: 25%;
+}
+
+div.mc-field-group input{
+    border: 1px solid white;
+    font-size: 20px;
+    height: 80px;
+    color: black;
+    width: 100%;
+}
+
+.mc-field-group{
+    margin: 20px;
+}
+
+.clear{
+    text-align: center;
+}
+
+.case{
+    display: flex;
+    border-style: none;    
+}
+
+span.cocher{
+    font-size: 0.7vw;
+    margin: 0;
+    padding: 0;    
+}
+
+.clear fieldset label{
+    display: flex;
+    align-items: start;
+}
+
+input.button{
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+/*-------------------- Bloc 6 footer ---------------------*/
+
+#footer{
+    width: 100%;
+    margin-top: -4px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{list-style: none;}
+
+
+.titlewhite{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.latowhite{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+    padding-left: 0px;
+    line-height: 35px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.blocleft{
+    display: flex;
+}
+
+
+article.univers,.cgu{
+    margin: 60px;
+}
+
+
+div.social{
+    margin: 60px;
+}
+
+
+.social img{
+    padding: 0px 7px;
+}
+
+
+
+
+
+                /*------ Responsive -------
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    #demander{
+        left: 50%;
+        transform: translate(-50%);
+        width: 30%;
+}
+
+
+    
+@media screen and (max-width: 640px) {
+
+    
+/* Header 
+    
+    .maintitle{
+        font-size: 6.6vw;
+}
+
+
+    .playwhite{
+        font-size: 5.2vw;
+}
+
+    
+    
+    
+    
+    
+/* Bloc visionnaire 
+    
+    #visionnaire{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #visionnaire article{
+        width: 100%;
+    }
+ 
+    .first-row-img{
+        width: 100%;
+}
+    
+    
+    #visionnaire h2{
+        margin: 25px 40px 0px 40px;
+}
+
+    #visionnaire h3{
+        margin: 5px 40px 0px 40px;
+}
+
+    #visionnaire article p{
+        margin: 40px;
+}
+    
+    #visionnaire article p.lato2{
+        margin: 20px 40px 20px 40px;
+        font-size: 2.6vw;
+        line-height: 20px;
+}
+    
+    .playfairtitle{
+        font-size: 3.2vw;
+}
+
+    .smalltitle{
+        font-size: 2.2vw;
+}
+
+    .lato{
+        font-size: 2.6vw;
+        line-height: 20px;
+}
+    
+    
+    
+/* Bloc technique 
+    
+    #technique{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #technique article{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .imgtech{
+        width: 100%;
+}
+    
+    #technique p, hr{
+        margin-left: 40px;
+        margin-right: 40px;
+}
+
+
+    .articletech p, span.donnees{
+        padding-left: 15px;
+}
+    
+    
+/* Bloc emotion 
+    
+    #emotion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #emotion article{
+        width: 100%;
+    }
+    
+    #emotion h2{
+        margin: 25px 40px 0px 40px;
+}
+
+    #emotion h3{
+        margin: 5px 40px 0px 40px;
+}
+
+    #emotion article p{
+        padding: 20px 40px;
+}
+    
+    #carre{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+}
+ 
+
+    
+/* Bloc formulaire 
+  
+    #formulaire{
+        margin-top: -4px;
+        background-image: url(images/respBMW.jpg); 
+        height: 500px;
+        /*width: 100%;
+    }
+    
+    #formulaire h2,h3{
+    margin-left: 40px;
+}
+    
+    .reserver{
+        font-size: 4.8vw;
+}
+
+    .playfairblack{
+    font-size: 4vw;
+    margin-top: 10%;
+    
+}
+    
+.formchimp{
+    left: 5%;
+    border: 1px solid green;
+    text-align: center;
+     
+}
+
+    .mc-field-group{
+    margin: 10px;
+}
+
+    div.mc-field-group input{
+    font-size: 20px;
+    width: 80%;
+    height: 30px;
+    
+}
+    
+.clear{
+    border: 1px solid red;
+}
+
+   
+
+ 
+/* Footer 
+    
+    
+    #footer{
+        display: block;
+        
+    }
+    
+        .blocleft{
+            display: flex;
+            flex-direction: column;
+    }
+
+
+        article.univers,.cgu{
+            margin: 30px;
+    }
+
+
+        div.social{
+            margin: 30px;
+            text-align: center;
+    }
+
+
+        .social img{
+            padding: 0px 3px;
+    }
+
+
+        .titlewhite{
+            font-size: 4vw;
+            padding-bottom: 10px;
+    }
+
+        .latowhite{
+            font-size: 3vw;
+            padding-left: 0px;
+            line-height: 40px;
+    }

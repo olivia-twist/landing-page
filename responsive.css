@@ -21,14 +21,10 @@
         font-size: 6.6vw;
 }
 
-
     .playwhite{
         font-size: 5.2vw;
 }
 
-    
-    
-    
     
     
 /* Bloc visionnaire */
@@ -36,17 +32,13 @@
     #visionnaire{
         display: flex;
         flex-direction: column;
-    }
+}
 
     #visionnaire article{
         width: 100%;
-    }
- 
-    .first-row-img{
-        width: 100%;
 }
-    
-    
+ 
+        
     #visionnaire h2{
         margin: 25px 40px 0px 40px;
 }
@@ -64,6 +56,11 @@
         font-size: 2.6vw;
         line-height: 20px;
 }
+   
+    .first-row-img{
+        width: 100%;
+}
+    
     
     .playfairtitle{
         font-size: 3.2vw;
@@ -85,18 +82,20 @@
     #technique{
         display: flex;
         flex-direction: column-reverse;
-    }
+}
 
-    #technique article{
-        width: 100%;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
     
     .imgtech{
         width: 100%;
 }
+  
+    #technique article{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+}
     
+  
     #technique p, hr{
         margin-left: 40px;
         margin-right: 40px;
@@ -113,11 +112,11 @@
     #emotion{
         display: flex;
         flex-direction: column;
-    }
+}
 
     #emotion article{
         width: 100%;
-    }
+}
     
     #emotion h2{
         margin: 25px 40px 0px 40px;
@@ -132,78 +131,107 @@
 }
     
     #carre{
-        flex-direction: column; 
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
 }
-
-    #carre div{
-        width: 100%
-    }
  
+    .imghover{
+        opacity: 1;
+}
+    
     
 /* Bloc formulaire */
-    
+  
     #formulaire{
-        
-    }
-        /*background-image: url(images/respBMW.jpg); }*/
-    
-    .mc_embed_signup{
-        position: absolute;
-       
-        text-align: center;
+        margin-top: -4px;
+        background-image: url(images/respBMW.jpg); 
+        height: 510px;
+        background-size: cover;
 }
     
-    div.mc-field-group input{
-        width: 250px;
-        height: 40px;
-        font-size: 15px;
+    #formulaire h2,h3{
+        margin-left: 40px;
+}
+    
+    .reserver{
+        font-size: 4.8vw;
+}
+
+    .playfairblack{
+        font-size: 4vw;
+        margin-top: 10%;
+}
+    
+    .formchimp{
+        position: absolute;
+        left:20%;
+        top: 20%;
     }
 
+
+    div.mc-field-group input{
+        height: 25px;
+        font-size: 15px;
+}
+    
+    
     .mc-field-group{
-        margin: 10px;
-    }
+        margin: 8px;
+}
     
+    
+    .clear{
+}
+
     input.button{
-        font-size: 20px;
+        padding: 10px;
+        border: 1px solid black;
+        font-size: 25px;
+}
+ 
+    span.cocher{
+        font-size: 1vw;
     }
-    
+        
 /* Footer */
     
     
     #footer{
         display: block;
         
-    }
+}
     
-        .blocleft{
-            display: flex;
-            flex-direction: column;
-    }
+    .titlewhite{
+        font-size: 4vw;
+        padding-bottom: 10px;
+}
+
+    .latowhite{
+        font-size: 3vw;
+        padding-left: 0px;
+        line-height: 40px;
+}
+    
+    
+    .blocleft{
+        display: flex;
+        flex-direction: column;
+}
 
 
-        article.univers,.cgu{
-            margin: 30px;
-    }
+    article.univers,.cgu{
+        margin: 30px;
+}
 
 
-        div.social{
-            margin: 30px;
-            text-align: center;
-    }
+    div.social{
+        margin: 30px;
+        text-align: center;
+}
 
 
-        .social img{
-            padding: 0px 3px;
-    }
+    .social img{
+        padding: 0px 3px;
+}
 
-
-        .titlewhite{
-            font-size: 4vw;
-            padding-bottom: 10px;
-    }
-
-        .latowhite{
-            font-size: 3vw;
-            padding-left: 0px;
-            line-height: 40px;
-    }
