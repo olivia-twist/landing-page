@@ -72,7 +72,7 @@ header{
 
 #visionnaire article{
     width: 50%;
-    margin: 0;
+    margin: 30px 0 0 0;
 }
 
 #visionnaire h2{
@@ -105,13 +105,17 @@ header{
 
 
 .playfairtitle{
-  font-family: 'Playfair Display', serif;
-  font-size: 3.2vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.9vw;
+    line-height: 3.2vw;
+    font-weight: lighter;
 }
 
 .smalltitle{
     font-family: 'Playfair Display', serif;
     font-size: 1.5vw;
+    font-weight: lighter;
+
 }
 
 .lato{
@@ -121,7 +125,7 @@ header{
 }
 
 
-/*-------------------- Bloc 3 Technique --------------------*/
+/*------------------ Bloc 3 Technique -------------------*/
 
 #technique{
     width: 100%;
@@ -147,6 +151,7 @@ header{
 }
 
 #technique p, hr{
+    margin-bottom: 10px;
     margin-left: 95px;
     margin-right: 95px;
 }
@@ -217,6 +222,10 @@ header{
 #formulaire{
     position: relative;
     width: 100%;
+    height: 1000px;
+    background-image: url(images/bmw-formulaire.jpg);
+    background-size: cover;
+    display: flex;
 }
 
 #formulaire h2,h3{
@@ -238,13 +247,10 @@ header{
 }
 
 
-.suvfond{width: 100%;}
-
-
-.mc_embed_signup{
-    position: absolute;
-    bottom: 15%;
-    right: 10%;
+.formchimp{
+    position: relative;
+    left: 56%;
+    top: 25%;
 }
 
 div.mc-field-group input{
@@ -252,7 +258,7 @@ div.mc-field-group input{
     font-size: 20px;
     height: 80px;
     color: black;
-    width: 600px;
+    width: 100%;
 }
 
 .mc-field-group{
@@ -269,7 +275,7 @@ div.mc-field-group input{
 }
 
 span.cocher{
-    font-size: 0.6vw;
+    font-size: 0.7vw;
     margin: 0;
     padding: 0;    
 }
@@ -285,7 +291,7 @@ input.button{
     color: white;
     background-color: black;
     font-family: 'Playfair Display', serif;
-    font-size: 40px
+    font-size: 40px;
 }
 
 /*-------------------- Bloc 6 footer ---------------------*/
@@ -344,3 +350,239 @@ div.social{
 }
 
 
+
+
+
+                /*------ Responsive -------
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    #demander{
+        left: 50%;
+        transform: translate(-50%);
+        width: 30%;
+}
+
+
+    
+@media screen and (max-width: 640px) {
+
+    
+/* Header 
+    
+    .maintitle{
+        font-size: 6.6vw;
+}
+
+
+    .playwhite{
+        font-size: 5.2vw;
+}
+
+    
+    
+    
+    
+    
+/* Bloc visionnaire 
+    
+    #visionnaire{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #visionnaire article{
+        width: 100%;
+    }
+ 
+    .first-row-img{
+        width: 100%;
+}
+    
+    
+    #visionnaire h2{
+        margin: 25px 40px 0px 40px;
+}
+
+    #visionnaire h3{
+        margin: 5px 40px 0px 40px;
+}
+
+    #visionnaire article p{
+        margin: 40px;
+}
+    
+    #visionnaire article p.lato2{
+        margin: 20px 40px 20px 40px;
+        font-size: 2.6vw;
+        line-height: 20px;
+}
+    
+    .playfairtitle{
+        font-size: 3.2vw;
+}
+
+    .smalltitle{
+        font-size: 2.2vw;
+}
+
+    .lato{
+        font-size: 2.6vw;
+        line-height: 20px;
+}
+    
+    
+    
+/* Bloc technique 
+    
+    #technique{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #technique article{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .imgtech{
+        width: 100%;
+}
+    
+    #technique p, hr{
+        margin-left: 40px;
+        margin-right: 40px;
+}
+
+
+    .articletech p, span.donnees{
+        padding-left: 15px;
+}
+    
+    
+/* Bloc emotion 
+    
+    #emotion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #emotion article{
+        width: 100%;
+    }
+    
+    #emotion h2{
+        margin: 25px 40px 0px 40px;
+}
+
+    #emotion h3{
+        margin: 5px 40px 0px 40px;
+}
+
+    #emotion article p{
+        padding: 20px 40px;
+}
+    
+    #carre{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+}
+ 
+
+    
+/* Bloc formulaire 
+  
+    #formulaire{
+        margin-top: -4px;
+        background-image: url(images/respBMW.jpg); 
+        height: 500px;
+        /*width: 100%;
+    }
+    
+    #formulaire h2,h3{
+    margin-left: 40px;
+}
+    
+    .reserver{
+        font-size: 4.8vw;
+}
+
+    .playfairblack{
+    font-size: 4vw;
+    margin-top: 10%;
+    
+}
+    
+.formchimp{
+    left: 5%;
+    border: 1px solid green;
+    text-align: center;
+     
+}
+
+    .mc-field-group{
+    margin: 10px;
+}
+
+    div.mc-field-group input{
+    font-size: 20px;
+    width: 80%;
+    height: 30px;
+    
+}
+    
+.clear{
+    border: 1px solid red;
+}
+
+   
+
+ 
+/* Footer 
+    
+    
+    #footer{
+        display: block;
+        
+    }
+    
+        .blocleft{
+            display: flex;
+            flex-direction: column;
+    }
+
+
+        article.univers,.cgu{
+            margin: 30px;
+    }
+
+
+        div.social{
+            margin: 30px;
+            text-align: center;
+    }
+
+
+        .social img{
+            padding: 0px 3px;
+    }
+
+
+        .titlewhite{
+            font-size: 4vw;
+            padding-bottom: 10px;
+    }
+
+        .latowhite{
+            font-size: 3vw;
+            padding-left: 0px;
+            line-height: 40px;
+    }
